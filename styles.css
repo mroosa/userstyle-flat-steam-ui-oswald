@@ -1071,7 +1071,7 @@ html body a.games_list_tab {
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-bottom-color: #303030;
     margin-right: -1px;
-    width: 52px;
+    width: 59px;
     height: 55px;
     overflow: hidden;
     transition: .25s;
@@ -1086,8 +1086,8 @@ html body a.games_list_tab:not(.active) .games_list_tab_number {
     position: absolute;
     float: none;
     left: 0;
-    max-width: 57px;
-    width: 57px;
+    max-width: 59px;
+    width: 59px;
     height: 55px;
     text-align: center;
     padding: 0;
@@ -1110,6 +1110,7 @@ html body a.games_list_tab:hover, */
 
 html body .games_list_tab.active,
 html body a.games_list_tab.active {
+    border-color: #2c3235;
     border-bottom-color: transparent;
     width: 205px;
 }
@@ -1143,7 +1144,7 @@ html body .inventory_iteminfo .item_desc_icon_center {
 }
 html body .games_list_tabs_ctn {
   background: transparent;
-  padding: 14px 14px 0 14px;
+  padding: 14px 0 0 0;
   margin-bottom: 0;
 }
 

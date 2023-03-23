@@ -13,10 +13,6 @@
    /* Oswald font */
    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
 
-   /* Lato font */
-   @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
-
-
   :root {
       --main-menu-highlight: #cccccc;
       --main-memu-height: 48px;
@@ -33,7 +29,6 @@
   html body,
   html body.v6 {
       padding-top: 48px; /* menu height */
-      font-family: "Lato", "Motiva Sans", Helvetica, Arial, sans-serif;
   }
   html body div#global_header,
   html body.v6 div#global_header {
@@ -390,7 +385,9 @@
   html body .game_area_offsite_purchase h1,
   html body .bundle_label,
   html body .discount_block .discount_pct,
-  html body .discount_final_price
+  html body .discount_final_price,
+  html body [class^="salepreviewwidgets_TitleCtn"],
+  html body [class^="gamehover_GameTitle"]
   {
       font-family: "Oswald", Arial, sans-serif;
       text-transform: uppercase;
@@ -439,7 +436,6 @@
       font-weight: 300;
   }
   html body .game_area_description {
-      font-family: "Lato", "Motiva Sans", sans-serif;
       font-size: 12px;
   }
   html body .game_area_description {
@@ -500,7 +496,6 @@
   }
   html body .review_box .content {
       margin: 0;
-      font-family: "Lato", Arial, sans-serif;
       font-size: 14px;
       line-height: 150%;
   }

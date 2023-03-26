@@ -387,7 +387,10 @@
   html body .discount_block .discount_pct,
   html body .discount_final_price,
   html body [class^="salepreviewwidgets_TitleCtn"],
-  html body [class^="gamehover_GameTitle"]
+  html body [class^="gamehover_GameTitle"],
+  html body [class^="salepreviewwidgets_StoreSaleDiscount"],
+  html body [class^="gameslistitems_GameName"],
+  html body .game_hover_box h4.hover_title
   {
       font-family: "Oswald", Arial, sans-serif;
       text-transform: uppercase;
@@ -1104,9 +1107,10 @@
       transition: .25s;
       background: rgba(0, 0, 0, .30);
       opacity: 0;
-      font-family: "Oswald", Helvetica, sans-serif;
-      font-size: 16px;
-      letter-spacing: 1px;
+      font-family: monospace;
+      font-size: 15px;
+      letter-spacing: -1px;
+      font-weight: bold;
   }
   html body .games_list_tab:not(.active):hover .games_list_tab_number,
   html body a.games_list_tab:not(.active):hover .games_list_tab_number {
